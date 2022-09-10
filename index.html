@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Nayelis</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<title>Revendreth</title>
+ 
+<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="shortcut icon" href="https://64.media.tumblr.com/53ae15ea92d101cff0dadbe4e2ed8c04/c543c790a34a1411-8d/s128x128u_c1/f37d2fae51aa1864fc693cf916814d93b0c06e23.pnj">
+<link rel="alternate" type="application/rss+xml" href="https://solocodes.net/rss">
+
+
+<!--- GOOGLE MATERIAL, LINEAR, DRIP & FONT AWESOME ICONS ---->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script></script><link rel="stylesheet" href="https://unpkg.com/@icon/dripicons/dripicons.css"><link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<!----- GOOGLE FONTS ----->
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Muli:400,600,700|Poppins:400,500,600,700|Open+Sans:400,600,700|Ubuntu:400,700|Raleway:400,600,700|Playfair+Display|Rubik:400,700&display=swap" rel="stylesheet">
+
+
+<!--- TOOLTIPS --->
+ 
+<script type="text/javascript"
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://static.tumblr.com/7qjmkr5/IUmmdsy41/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("[title]").style_my_tooltips();
+});
+})(jQuery);
+</script>
+<style>
+
+/* COLOR THE PAGE HERE */
+
+:root {
+  --background:#DCD9D8ff;
+  --boxes:#fff;
+  --borders:#DCD9D8ff;
+  --hover:#ccc;
+  --text:#000;
+  --title:#fff;
+  --titlebackgrounds:#212121;
+  --paletteone:#DCD9D8ff;
+  --palettetwo:#C6C5C4ff;
+  --palettethree:#996E67ff;
+  --palettefour:#989695ff;
+  --palettefive:#B1AAA7ff;
+  --palettesix:#74423Cff;
+}
+
+
+
+/* TOOLTIPS */
+#s-m-t-tooltip {
+display: block;
+margin: 15px;
+color:var(--title);
+background:var(--text);
+font:0.80em 'Poppins', sans-serif;
+font-weight:600;
+text-align:center;
+border-radius:3px;
+padding:4px;
+margin-left:25px;
+letter-spacing:1px;
+text-transform: uppercase;
+line-height:130%;
+min-width:40px;
+max-width:150px;
+z-index: 9999999999;}
+
+
+/* TUMBLR CONTROLS */
+ 
+.tc svg {
+display:block;
+z-index:99999999999 !important;
+width:14px;
+height:auto;
+overflow:hidden;
+overflow:visible;}
+ 
+.tc svg path {fill:var(--text);}
+ 
+.tc {
+z-index:15;
+position:fixed;
+top:15px;
+right:25px;}
+ 
+iframe.tmblr-iframe {
+z-index:999;
+right:-5px;
+top:9px;
+opacity:0;
+position:fixed;
+width:0;
+padding-right:80px;
+filter:contrast(150%) invert(100%);
+-webkit-filter:contrast(150%) invert(100%);
+transform:scale(0.6);
+-webkit-transform:scale(0.6);
+transform-origin:100% 0;
+-webkit-transform-origin:100% 0;    }  
+ 
+#tumblr_controls:hover, .tmblr-iframe:hover {opacity:.5!important;}
+
+ 
+
+/* MAIN BODY/HTML CONTAINER */
+body, html {
+height: 100%;
+margin: 0;
+font-size:12px;
+font-family:'Poppins', sans-serif;
+overflow-x:hidden;
+background-image:url('');
+background-repeat:repeat;
+background-attachment:fixed;
+background-color:var(--background);
+color:var(--text);}
+
+
+
+/* ENTRY LINKS / BODY LINKS  */
+a:link, a:active, a:visited {
+clear:both;
+z-index:2!Important;
+text-decoration:none;
+/*MAIN LINKS COLORS
+(If you have any links in the about me paragraph, change it's color here) */
+color:#000000;}
+ 
+a:hover {
+clear:both;
+z-index:99999999!Important;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-o-transition: all .3s;
+-ms-transition: all .3s;
+transition: all .3s;
+/*MAIN LINKS / TAGS LINKS HOVER COLOR*/
+color:var(--hover);}
+
+
+/* ABOUT ME BOX CONTAINER  */
+.box {
+position:relative;
+width:900px;
+height:500px;
+top:calc(50% - 250px);
+left:calc(49% - 450px);} 
+
+
+/*FIRST BOX :: ABOUT ME*/
+.about {
+position:fixed; 
+height:100px;
+width:400px;
+text-align:center;
+border-top-left-radius:8px;
+border-top-right-radius:8px;
+background:var(--titlebackgrounds);}
+
+
+/* MAIN TITLE */
+.abouttitle {
+position:fixed;
+z-index:999999;
+letter-spacing:1.3px;
+text-transform:uppercase;
+text-align:center;
+width:400px;
+font:bold 2em 'Poppins', sans-serif;
+font-weight:600;
+color:var(--title);
+line-height:94px;}
+
+
+/* BIO/ABOUT ME BOX CONTAINER */
+.biobox {
+position:fixed;
+margin-left:280px;
+margin-top:100px;
+width:120px;
+height:120px;}
+
+/*BIO/ABOUT ME BOX ICON IMAGE*/
+.biobox img {
+position:fixed;
+z-index:999999;
+border-bottom-right-radius:8px;
+width:120px;
+height:120px;}
+
+
+/* PROFILE BOX CONTAINER */
+.profile {
+position:fixed;
+margin-left:0px;
+margin-top:100px;
+width:260px;
+height:100px;
+padding:10px;
+text-transform:uppercase;
+text-align:left;
+letter-spacing:1px;
+font:0.85em 'Lato', sans-serif;
+line-height:20px;
+border-bottom-left-radius:8px;
+color:var(--text);
+background:var(--boxes);
+border-bottom:1px solid var(--borders);
+border-left:1px solid var(--borders);}
+
+/* PROFILE BOX TITLE LABELS */
+tt {
+text-transform:uppercase;
+text-align:left;
+letter-spacing:1.3px;
+font-weight:700;
+font:bold 0.90em 'Poppins', sans-serif;
+color:var(--text);}
+
+
+
+/*NAVIGATION LINK BOX CONTAINER */
+.linkbox {
+position:fixed;
+z-index:999;
+margin-left:440px;
+width:450px;
+height:220px;
+border-radius:8px;
+border:1px solid var(--borders);
+background:var(--boxes);}
+
+
+/*--- CUSTOM NAVIGATION LINKS CONTAINER ---*/
+.links{
+position:fixed;
+width:550px;
+z-index:9999999999;
+text-align:left;
+color:var(--text);
+margin-top:-15px;
+margin-left:40px;}
+
+/*--- CUSTOM NAVIGATION LINKS STYLING ---*/
+.links a {
+z-index:9999999999;
+font:0.90em 'Poppins', sans-serif;
+font-weight:600;
+width:150px;
+letter-spacing:1px;
+text-transform:uppercase;
+text-align:left;
+color:var(--text);
+display:block;
+padding-left:66px;
+padding-top:38px;}
+
+/*--- CUSTOM NAVIGATION LINKS LINK STYLE CONTAINER ---*/
+.links li {
+z-index:9999999999;
+margin-left:10px;
+float:left;
+display:block;}
+ 
+/*--- CUSTOM NAVIGATION LINKS HOVER ---*/    
+.links a:hover {
+z-index:9999999999;
+color:;
+-webkit-filter: blur(1px); 
+filter: blur(1px);}
+
+/*--- CUSTOM NAVIGATION LINKS SUBTITLE ---*/
+.links span {
+z-index:9999999999;
+font-style:italic; 
+letter-spacing:1.3px;
+color:var(--text);
+font:0.88em 'Poppins', sans-serif;}
+
+
+/*--- CUSTOM NAVIGATION LINKS ICONS CONTANIER ---*/
+.links ic {
+position:absolute;
+width:100px; 
+height:100px;
+float:left;}
+
+
+/*--- CUSTOM NAVIGATION LINKS ICONS STYLE ---*/
+.links i { 
+position:absolute;
+z-index:99999999999999999999999!important;
+margin-left:-10px;
+margin-top:30px;
+border-radius:100px;
+width:40px;
+height:40px;
+font-size:1.8em;
+text-align:center;
+line-height:40px;
+color:var(--accent);
+border:4px solid var(--background);
+background:var(--boxes);}
+
+
+/*--- CUSTOM LINKS NAVIGATION BORDER LEFT ---*/
+.bdd {
+position:fixed;
+width:1px;
+height:150px;
+margin-left:65px;
+margin-top:50px;
+background-color:var(--background);}
+
+
+/*--- CUSTOM LINKS NAVIGATION BORDER RIGHT ---*/
+.bddd {
+position:fixed;
+width:1px;
+height:150px;
+margin-left:290px;
+margin-top:50px;
+background-color:var(--background);}
+
+
+/*--- SKILLS BOX CONTAINER ---*/
+.skillbox {
+position:fixed;
+z-index:99999;
+margin-left:0px;
+margin-top:280px;
+width:280px;
+height:200px;
+border-radius:8px;
+border:1px solid var(--borders);
+background:var(--boxes);}
+
+
+/*--- SKILLS STYLING ---*/
+.skills {
+text-align: right;
+margin-left:10px;
+padding-top:1px;
+Padding-bottom:1px;
+padding-right:4px;
+border-radius:3px;
+margin-bottom:10px;
+color:var(--title);}
+
+
+/*--- SKILLS STYLING CHANGE THE NUMBERS HERE AND CHANGE THE NUMBERS IN THE LOWER PART OF THE HTML AS WELL TO MATCH  ---*/
+.html {width: 90%; background-color:var(--titlebackgrounds);}
+.ps {width: 70%; background-color:var(--titlebackgrounds);}
+.js {width: 45%; background-color:var(--titlebackgrounds);}
+
+
+
+/* --- SKILLS TITLES ---*/
+st {
+font-weight:600;
+padding-left:10px;
+font:bold 1em 'Poppins', sans-serif;
+letter-spacing:1px;}
+
+
+/* --- COLOR PALETTE CONTAINER ---*/
+.palettebox {
+position:fixed;
+z-index:99999;
+margin-left:312px;
+margin-top:280px;
+width:280px;
+height:200px;
+border-radius:8px;
+border:1px solid var(--borders);
+background:var(--boxes);}
+
+/* --- PALETTE COLOR TITLES ---*/
+pt {
+width:45px;
+text-align:center;
+font:bold 0.90em 'Poppins', sans-serif;
+line-height:130px;}
+
+
+/* --- COLOR PALETTE ONE ---*/
+.paletteone {
+position:fixed;
+margin-left:10px;
+margin-top:10px;
+width:55px;
+height:55px;
+border-radius:100px;
+background:var(--paletteone);}
+
+/* --- COLOR PALETTE TWO ---*/
+.palettetwo {
+position:fixed;
+margin-left:110px;
+margin-top:10px;
+width:55px;
+height:55px;
+border-radius:100px;
+background:var(--palettetwo);}
+
+/* --- COLOR PALETTE THREE ---*/
+.palettethree {
+position:fixed;
+margin-left:210px;
+margin-top:10px;
+width:55px;
+height:55px;
+border-radius:100px;
+background:var(--palettethree);}
+
+/* --- COLOR PALETTE FOUR ---*/
+.palettefour {
+position:fixed;
+margin-left:10px;
+margin-top:90px;
+width:55px;
+height:55px;
+border-radius:100px;
+background:var(--palettefour);}
+
+
+/* --- COLOR PALETTE FIVE ---*/
+.palettefive {
+position:fixed;
+margin-left:110px;
+margin-top:90px;
+width:55px;
+height:55px;
+border-radius:100px;
+background:var(--palettefive);}
+
+
+/* --- COLOR PALETTE SIX ---*/
+.palettesix {
+position:fixed;
+margin-left:210px;
+margin-top:90px;
+width:55px;
+height:55px;
+border-radius:100px;
+background:var(--palettesix);}
+
+
+/*--- TAGS BOX CONTAINER ---*/
+.tagsbox {
+position:fixed;
+z-index:99999;
+margin-left:620px;
+margin-top:280px;
+width:280px;
+height:200px;
+border-radius:8px;
+border:1px solid var(--borders);
+background:var(--boxes);}
+
+
+
+/*--- TAGS BOX :: TAGS STYLING ---*/
+
+.tags {
+margin-left:5px;
+margin-top:10px;
+width:280px;}
+
+.tags a {
+font:bold 0.90em 'Poppins', sans-serif;
+font-weight:800;
+display:inline-block;
+padding:6px;
+margin-bottom:10px;
+letter-spacing:1px;
+text-transform:lowercase;
+line-height:17px;
+border-radius:5px;}
+
+.tags n {color:var(--text);}
+
+
+/*--- BOX TITLES / LABELS  ---*/
+.boxtitles {
+width:70px;
+padding:8px;
+text-align:center;
+margin-top:0px;
+margin-left:0px;
+letter-spacing:1px;
+font:1em 'Poppins', sans-serif;
+border-top-left-radius:8px;
+border-bottom-right-radius:8px;
+color:var(--title);
+background:var(--titlebackgrounds);}
+
+
+
+</style>
+
+<script
+    defer
+    type="application/javascript"
+    id="bilmur"
+    data-provider="tumblr.com"
+    data-service="blognetwork"
+    nonce="NefCbkRWegq9EIcigAEnD2HxE"
+    src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202236"
+  ></script><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:site_name" content="Tumblr" /><meta property="og:title" content="Tumblr" /><meta property="og:url" content="https://solocodes.net/bittersweet" /><meta property="og:type" content="article" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=solocodes&amp;postID=" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=solocodes&amp;postID=" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="solocodes" /><meta name="twitter:title" content="solocodes" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=solocodes&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=solocodes&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=solocodes&amp;referrer=twitter-cards" /><link rel="canonical" href="https://solocodes.net/bittersweet" /></head>
+<body>
+
+
+<div class="tc"><svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"viewBox="0 0 438.317 438.317" style="enable-background:new 0 0 438.317 438.317;" xml:space="preserve"><g><g><path d="M31.167,266.192l20.4,9.35c8.5,3.967,12.467,13.6,9.35,22.383l-7.933,20.967c-5.95,16.15-3.967,33.433,5.95,47.317c9.633,14.167,25.5,22.383,42.5,22.383c6.233,0,12.467-1.133,18.417-3.4l20.967-7.933c1.983-0.85,3.967-1.133,6.233-1.133c6.8,0,13.317,3.967,16.15,10.483l9.35,20.4c8.5,18.7,26.633,30.317,47.033,30.317s38.533-11.617,47.033-30.317l9.35-20.4c2.833-6.233,9.067-10.483,16.15-10.483c1.983,0,4.25,0.283,6.233,1.133l20.967,8.217c5.95,2.267,12.183,3.683,18.417,3.683l0,0c16.717,0,32.583-8.783,42.5-22.667c9.633-14.167,11.9-31.45,5.95-47.6l-7.933-20.967c-3.117-8.783,0.85-18.417,9.35-22.383l20.4-9.35c18.7-8.5,30.317-26.633,30.317-47.033S426.7,180.625,408,172.125l-20.4-9.35c-8.5-3.967-12.467-13.6-9.35-22.383l7.933-20.967c5.95-16.15,3.967-33.433-5.95-47.317c-9.633-14.167-25.5-22.383-42.5-22.383c-6.233,0-12.467,1.133-18.417,3.4l-20.967,7.933c-1.983,0.85-3.967,1.133-6.233,1.133c-6.8,0-13.317-3.967-16.15-10.483l-9.35-20.4c-8.5-18.7-26.633-30.317-47.033-30.317s-39.383,11.9-47.883,30.6l-9.35,20.4c-2.833,6.233-9.067,10.483-16.15,10.483c-1.983,0-4.25-0.283-6.233-1.133L119,53.408c-5.95-2.267-12.183-3.4-18.417-3.4c-16.717,0-32.583,8.5-42.5,22.383c-9.633,14.167-11.9,31.45-5.95,47.317l7.933,20.967c3.117,8.783-0.85,18.417-9.35,22.383l-20.4,9.35C11.617,180.908,0,199.042,0,219.442S12.467,257.692,31.167,266.192z M45.05,203.008l20.4-9.35c24.65-11.333,36.55-39.95,26.917-65.167l-7.933-20.967c-2.833-7.65,0-13.317,1.983-16.15c4.533-6.8,13.033-9.633,20.967-6.517l20.967,7.933c5.95,2.267,11.9,3.4,18.133,3.4l0,0c20.117,0,38.533-11.9,47.033-30.317l9.35-20.4c4.25-9.633,13.317-10.483,16.15-10.483c2.833,0,11.617,0.85,16.15,10.483l9.35,20.4c8.5,18.417,26.917,30.317,47.033,30.317c6.233,0,12.183-1.133,18.133-3.4l20.967-7.933c7.933-2.833,16.15,0,20.967,6.517c1.983,2.833,4.817,8.5,1.983,16.15l-7.933,20.967c-9.35,25.217,2.267,53.833,26.917,65.167l20.4,9.35c9.633,4.25,10.483,13.317,10.483,16.15c0,2.833-0.85,11.617-10.483,16.15l-20.4,9.35c-24.65,11.333-36.55,39.95-26.917,65.167l7.933,20.967c2.833,7.65,0,13.317-1.983,16.15c-4.533,6.8-13.033,9.633-20.967,6.517l-20.967-7.933c-5.95-2.267-11.9-3.4-18.133-3.4c-20.117,0-38.533,11.9-47.033,30.317l-9.35,20.4c-4.25,9.633-13.317,10.483-16.15,10.483c-2.833,0-11.617-0.85-16.15-10.483l-9.35-20.4c-8.5-18.417-26.917-30.317-47.033-30.317c-6.233,0-12.183,1.133-18.133,3.4l-20.967,7.933c-7.933,2.833-16.15,0-20.967-6.517c-1.983-2.833-4.817-8.5-1.983-16.15l7.933-20.967c9.35-25.217-2.267-53.833-26.917-65.167l-20.4-9.35c-9.633-4.25-10.483-13.317-10.483-16.15C34.567,216.325,35.417,207.542,45.05,203.008z"/><path d="M218.733,292.825c40.517,0,73.667-33.15,73.667-73.667s-33.15-73.667-73.667-73.667s-73.667,33.15-73.667,73.667S177.933,292.825,218.733,292.825z M218.733,179.492c21.817,0,39.667,17.85,39.667,39.667s-17.85,39.667-39.667,39.667s-39.667-17.85-39.667-39.667S196.917,179.492,218.733,179.492z"/></g></g></svg></div>
+
+
+
+
+
+<div class="box">
+
+
+
+
+
+<div class="about">
+<div class="abouttitle">revendreth</div>
+</div>
+
+
+
+
+
+<div class="biobox">
+<img src="https://i.ibb.co/3MNxH7F/tumblr-ppt6kq3acg1qirvsvo5-250.png">
+</div>
+
+<div class="profile">
+<tt>Name</tt>&nbsp;&nbsp; sycthe <br>
+<tt>Bday</tt> &nbsp;&nbsp; 02/96 <br>
+<tt>Zodiac</tt> &nbsp;&nbsp; pisces <br>
+<tt>Residence</tt>&nbsp;&nbsp; #york <br> 
+<tt>Hobbies:</tt> &nbsp;&nbsp; love, cry, Die
+</div>
+
+
+<div class="linkbox">
+
+<div class="bdd"></div>
+<div class="bddd"></div>
+<div class="links" style="list-style-type:none;">
+<li> <ic> <i class="material-icons">timeline</i> </ic> <a "ngl.link/pasako" title="ask"> Ask <br><span> Inbox Me </span></a> </li>
+<li> <ic> <i class="material-icons">timeline</i> </ic> <a href="xat.me/nashe" title="Nashe"> ThNKS to <br><span> nashe </span></a> </li>
+<li> <ic> <i class="material-icons">timeline</i> </ic> <a href="https://xat.me/Neuroticism" title="Neuroticism"> Best Boy <br><span> forever </span></a> </li>
+<li> <ic> <i class="material-icons">timeline</i> </ic> <a "" title="time to"> time to <br><span> see </span></a> </li>
+<li> <ic> <i class="material-icons">timeline</i> </ic> <a "" title="space"> another <br><span> space </span></a> </li>
+<li> <ic> <i class="material-icons">timeline</i> </ic> <a "xat.me/Revendreth" title="me ✩✩✩"> Theme <br><span> Revendreth </span></a> </li>
+</div>
+</div>
+
+
+
+
+<div class="skillbox">
+<div class="boxtitles">SKILLS</div>
+<br>
+<st>Games</st>
+<div class="skills html">90%</div>
+
+<st>PHOTOSHOP</st>
+<div class="skills ps">70%</div>
+
+<st>work</st>
+<div class="skills js">65%</div>
+</div>
+
+
+
+<div class="palettebox">
+<div class="boxtitles">PALETTE</div>
+
+<div class="paletteone"><pt>#0d0d0d</pt></div>
+<div class="palettetwo"><pt>#c93643</pt></div>
+<div class="palettethree"><pt>#c4a470</pt></div>
+<div class="palettefour"><pt>#a3a3a2</pt></div>
+<div class="palettefive"><pt>#847468</pt></div>
+<div class="palettesix"><pt>#4b4b4b</pt></div>
+</div>
+
+
+
+
+
+<div class="tagsbox">
+<div class="boxtitles">TAGS</div>
+<div class="tags"> 
+<br>
+<a "/" title="photography"><n>#</n>Photography</a> 
+<a "" title="nature"><n>#</n>Nature</a>
+<a "/" title="audio"><n>#</n>Audio</a>
+<a "/" title="art"><n>#</n>art</a>
+<a "/" title="history"><n>#</n>History</a>
+<a "/" title="videos"><n>#</n>videos</a>
+<a "/" title="food"><n>#</n>food</a>
+<a "/" title="flowers"><n>#</n>Flowers</a>
+<a "/" title="mythology"><n>#</n>Mythology</a>
+<a "/" title="film"><n>#</n>films</a>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
+                              "https://solocodes.net";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/bittersweet?route=custom_page'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript" nonce="NefCbkRWegq9EIcigAEnD2HxE">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1662677690&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL3NvbG9jb2Rlcy5uZXQvYml0dGVyc3dlZXQiLCJyZXF0eXBlIjowLCJyb3V0ZSI6ImN1c3RvbV9wYWdlIn0=&U=DJPDPIFEEP&K=46c9b407a16b0ddb0773a66ca1fe9f9f7f82ade12ca59f3277eee8b69d62682f&R=https%3A%2F%2Fsolocodes.net%2Fportfolio'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1662677690&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL3NvbG9jb2Rlcy5uZXQvYml0dGVyc3dlZXQiLCJyZXF0eXBlIjowLCJyb3V0ZSI6ImN1c3RvbV9wYWdlIiwibm9zY3JpcHQiOjF9&U=DJPDPIFEEP&K=64cb0cfcae72dfa3a8bfe6b93244cbc4089b131ad207a76260e86d0756e47f5e&R=https%3A%2F%2Fsolocodes.net%2Fportfolio"></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:true,&quot;tumblelogBundleSrc&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=0e147942bfe4bb394faff9af7aa7a974&quot;,&quot;tumblelogName&quot;:&quot;solocodes&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;Solo Codes | Free \u0026 Premium Themes&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/64.media.tumblr.com\/53ae15ea92d101cff0dadbe4e2ed8c04\/c543c790a34a1411-8d\/s64x64u_c1\/e9aa7c6efecdd1360346a39928933fb138e8febd.pnj&quot;,&quot;tumblelogAvatar128&quot;:&quot;https:\/\/64.media.tumblr.com\/53ae15ea92d101cff0dadbe4e2ed8c04\/c543c790a34a1411-8d\/s128x128u_c1\/f37d2fae51aa1864fc693cf916814d93b0c06e23.pnj&quot;,&quot;tumblelogHost&quot;:&quot;https:\/\/solocodes.net&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:true,&quot;themeHeaderImage&quot;:&quot;&quot;,&quot;themeBackgroundColor&quot;:&quot;#FAFAFA&quot;,&quot;themeTitleColor&quot;:&quot;#444444&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:true,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:false,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:null,&quot;currentPage&quot;:false,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/solocodes.net\/bittersweet&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;https:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dbn_continue_or_install_cta&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=bn_continue_or_install_cta\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;bn_header_open_btn&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1,&quot;installUrlOpenFailed&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dbn_header_app_open_failed&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=bn_header_app_open_failed\u0026mt=8&quot;},&quot;loginWallVariant&quot;:&quot;small_center&quot;}},&quot;Flags&quot;:{&quot;features&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJzYWZlX21vZGUiOnRydWUsInNhZmVfbW9kZV9lbmFibGVkIjp0cnVlLCJrZXljb21tYW5kX2F1dG9fcGFnaW5hdGUiOnRydWUsImxvZ2dlZF9vdXRfc2VhcmNoIjp0cnVlLCJrcmFrZW5fd2ViX2xvZ2dpbmdfbGlicmFyeSI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwic2FmZV9tb2RlX293bl9wb3N0Ijp0cnVlLCJwcm9qZWN0X3hfYXBwZWFsIjp0cnVlLCJtb2JpbGVfd2ViX3Bob3Rvc2V0cyI6dHJ1ZSwiaGlkZV9kZWZhdWx0X2hlYWRlcnNfYmxvZ19jYXJkcyI6dHJ1ZSwibm90aWZpY2F0aW9uX3JlcGx5X2xpbmtfdG9fbm90ZXMiOnRydWUsInR5cGluZ19pbmRpY2F0b3Jfd3JpdGUiOnRydWUsInR1bWJscl92aWRlb19zcG9uc29yZWRfZGF5Ijp0cnVlLCJjYXB0Y2hhOnVzZV9yZWNhcHRjaGEyIjp0cnVlLCJsaXR0bGVfc2lzdGVyIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwicmVkcG9wX3Bvc3RfZm9ybV9tb2JpbGVfY3JlYXRlIjp0cnVlLCJsZWdhY3lfcG9zdF9mb3JtX2J1dHRvbnNfbGlua190b19yZWRwb3AiOnRydWUsInNob3dfdHNwX2NsaWNrX3Rocm91Z2hfdG9nZ2xlIjp0cnVlLCJkYXJsYV9hZF9mZWVkYmFjayI6dHJ1ZSwic3RhdHVzX2luZGljYXRvciI6dHJ1ZSwiY29udmVyc2F0aW9uYWxfbm90aWZpY2F0aW9ucyI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZSwibGl2ZXBob3RvcyI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1662677690000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;es_ES&quot;,&quot;language_simple&quot;:&quot;es&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;Cancel&quot;:&quot;Cancelar&quot;,&quot;Nevermind&quot;:&quot;Cancelar&quot;,&quot;Ignore&quot;:&quot;Ignorar&quot;,&quot;Unfollow&quot;:&quot;Dejar de seguir&quot;,&quot;Are you sure you want to unfollow %1$s?&quot;:&quot;\u00bfSeguro que quieres dejar de seguir a %1$s?&quot;,&quot;Sorry, we seem to be having technical trouble.  Please try again later.&quot;:&quot;Lo sentimos, parece que estamos experimentando problemas t\u00e9cnicos. Vuelve a intentarlo m\u00e1s tarde.&quot;,&quot;Follow&quot;:&quot;Seguir&quot;,&quot;Follow %1$s&quot;:&quot;Seguir a %1$s&quot;,&quot;Put it back&quot;:&quot;Vuelve a tu sitio&quot;,&quot;See all&quot;:&quot;Ver todas&quot;,&quot;Block&quot;:&quot;Bloquear&quot;,&quot;%1$sAre you sure you want to block %2$s from %3$s?%4$sThey won&#039;t be able to follow %3$s, send %3$s messages, see %3$s in search results, or interact with any of %3$s&#039;s posts.%5$s&quot;:&quot;%1$s\u00bfSeguro que quieres bloquear a %2$s de %3$s?%4$sNo podr\u00e1 seguir a %3$s, enviar mensajes a %3$s, ver a %3$s en los resultados de b\u00fasqueda o interactuar de forma alguna con las publicaciones de %3$s.%5$s&quot;,&quot;%1$sBlock messages from this sender?%2$sAny further messages sent from their IP address will be blocked from your inbox. This can&#039;t be undone, by the way.%3$s&quot;:&quot;\u00bf%1$sQuieres bloquear los mensajes de este remitente?%2$sDejar\u00e1s de recibir mensajes enviados desde su misma direcci\u00f3n IP en tu bandeja de entrada. No olvides que no es posible deshacer este cambio.%3$s&quot;,&quot;Okay! We&#039;ll review the status of this and email you when we&#039;re done.&quot;:&quot;\u00a1Perfecto! Analizaremos el caso y te enviaremos un correo electr\u00f3nico cuando el proceso haya terminado.&quot;,&quot;This is marked as sensitive content. If that seems like a mistake, you can request a review.&quot;:&quot;Esta publicaci\u00f3n est\u00e1 marcada como contenido delicado. Si crees que se trata de un error, puedes pedirnos que la revisemos.&quot;,&quot;Request Review&quot;:&quot;Solicitar revisi\u00f3n&quot;,&quot;This post is still marked as sensitive, but is currently being reviewed.&quot;:&quot;Esta publicaci\u00f3n sigue marcada como contenido delicado, pero la estamos revisando.&quot;,&quot;After review, it was determined that this post contains sensitive content.&quot;:&quot;Tras revisarlo, hemos corroborado que el contenido de esta publicaci\u00f3n puede ser delicado.&quot;,&quot;This is marked as %1$ssensitive%2$s&quot;:&quot;Esta publicaci\u00f3n incluye %1$scontenido delicado%2$s&quot;,&quot;This Tumblr may contain sensitive media.&quot;:&quot;El contenido de este Tumblr puede ser delicado.&quot;,&quot;Sensitive posts are hidden. If you want to change that, disable Safe Mode in your settings.&quot;:&quot;Las publicaciones con contenidos que pueden resultar delicados est\u00e1n ocultas. Para mostrarlas, desactiva el modo seguro en el apartado de configuraci\u00f3n.&quot;,&quot;Hey, this post may contain adult content, so we&#039;ve hidden it from public view.&quot;:&quot;Vaya... Es posible que esta publicaci\u00f3n incluya contenido para adultos y, por eso, la hemos ocultado.&quot;,&quot;Learn more&quot;:&quot;M\u00e1s informaci\u00f3n&quot;,&quot;%1$sLearn more%2$s&quot;:&quot;%1$sM\u00e1s informaci\u00f3n%2$s&quot;,&quot;Safe Mode is on&quot;:&quot;Modo seguro activado&quot;,&quot;%1$sSafe mode is on%2$s&quot;:&quot;%1$sModo seguro activado%2$s&quot;,&quot;View this Tumblr&quot;:&quot;Ver este Tumblr&quot;,&quot;This content contains adult content which violates our Community Guidelines.&quot;:&quot;Esta publicaci\u00f3n incluye contenido para adultos y, por tanto, infringe las Normas de la comunidad.&quot;,&quot;This post was flagged because we think it contains adult content which violates our Community Guidelines. It has been hidden from others, but not deleted. If you think this was done in error, tap Appeal and a real, live human will review it.&quot;:&quot;Hemos marcado esta publicaci\u00f3n porque creemos que incluye contenido para adultos y, por lo tanto, incumple las Normas de la comunidad. De momento, est\u00e1 oculta para el resto de personas, pero no la hemos eliminado. Si crees que se trata de un error, utiliza el bot\u00f3n para solicitar una revisi\u00f3n y nuestro equipo se encargar\u00e1 de comprobarla.&quot;,&quot;Your post is in content appeal. Once a decision has been made, we&#039;ll send you an email.&quot;:&quot;Esta publicaci\u00f3n se encuentra en revisi\u00f3n. Te enviaremos un correo electr\u00f3nico cuando hayamos tomado una decisi\u00f3n.&quot;,&quot;This post was flagged because it contains adult content which violates our Community Guidelines. It has not been deleted but is now only viewable to you. This decision cannot be appealed.&quot;:&quot;Hemos marcado esta publicaci\u00f3n porque incluye contenido para adultos y, por lo tanto, incumple las Normas de la comunidad. No la hemos eliminado, pero, a partir de ahora, solo podr\u00e1s verla t\u00fa. Esta decisi\u00f3n es definitiva y no podr\u00e1s solicitar que se revise.&quot;,&quot;This post was flagged because somewhere in your reblog there might be adult content which is a violation of our Community Guidelines.&quot;:&quot;Hemos marcado esta publicaci\u00f3n porque el reblogueo inclu\u00eda contenido para adultos y, por lo tanto, incumpl\u00eda las Normas de la comunidad.&quot;,&quot;This reblog is in content appeal&quot;:&quot;Este reblogueo se ha enviado al equipo de revisi\u00f3n&quot;,&quot;Your post is in content appeal&quot;:&quot;Tu contenido se ha enviado al equipo de revisi\u00f3n&quot;,&quot;This post was flagged because somewhere in your reblog there might be adult content.&quot;:&quot;Hemos marcado esta publicaci\u00f3n porque parece que el reblogueo inclu\u00eda contenido para adultos.&quot;,&quot;It looks like your post might be in violation of our Community Guidelines and is now hidden.&quot;:&quot;Parece que tu publicaci\u00f3n podr\u00eda incumplir nuestras Normas de la comunidad, as\u00ed que hemos decidido ocultarla.&quot;,&quot;Based on our Community Guidelines this post contains adult content and is now only viewable to you.&quot;:&quot;Seg\u00fan nuestras Normas de la comunidad, esta publicaci\u00f3n incluye contenido para adultos y, a partir de ahora, solo t\u00fa podr\u00e1s verla.&quot;,&quot;Your appeal was accepted! This post is no longer hidden.&quot;:&quot;Hemos valorado tu solicitud de revisi\u00f3n y \u00a1ten\u00edas raz\u00f3n! Este contenido ya no est\u00e1 oculto.&quot;,&quot;Dismiss&quot;:&quot;Descartar&quot;,&quot;Appeal&quot;:&quot;Solicitar revisi\u00f3n&quot;,&quot;This post contains filtered tags&quot;:&quot;Esta publicaci\u00f3n contiene etiquetas filtradas&quot;,&quot;Are you sure you want to log out?&quot;:&quot;\u00bfSeguro que quieres cerrar la sesi\u00f3n?&quot;,&quot;Likes&quot;:&quot;Me gusta&quot;,&quot;Following&quot;:&quot;Siguiendo&quot;,&quot;New&quot;:&quot;A\u00f1adir blog&quot;,&quot;Account&quot;:&quot;Cuenta&quot;,&quot;Settings&quot;:&quot;Configuraci\u00f3n&quot;,&quot;Help&quot;:&quot;Ayuda&quot;,&quot;Log out&quot;:&quot;Cerrar sesi\u00f3n&quot;,&quot;Posts&quot;:&quot;Publicaciones&quot;,&quot;Reach&quot;:&quot;Alcance&quot;,&quot;Followers&quot;:&quot;Seguidores&quot;,&quot;Activity&quot;:&quot;Actividad&quot;,&quot;Members&quot;:&quot;Integrantes&quot;,&quot;Drafts&quot;:&quot;Borradores&quot;,&quot;Queue&quot;:&quot;En cola&quot;,&quot;Processing&quot;:&quot;Procesando&quot;,&quot;Review flagged posts&quot;:&quot;Comprobar publicaciones marcadas&quot;,&quot;Analytics&quot;:&quot;Estad\u00edsticas&quot;,&quot;Sponsor&quot;:&quot;Patrocinador&quot;,&quot;Sponsored&quot;:&quot;Patrocinado&quot;,&quot;About Tumblr Ads&quot;:&quot;Acerca de la publicidad en Tumblr&quot;,&quot;Edit appearance&quot;:&quot;Modificar apariencia&quot;,&quot;Your blog info, account info, and recent activity are in these menus.&quot;:&quot;La informaci\u00f3n de tu blog, los datos de tu cuenta y tu actividad reciente se encuentran en estos men\u00fas.&quot;,&quot;Wait, why?&quot;:&quot;Pero \u00bfpor qu\u00e9?&quot;,&quot;Okay, phew&quot;:&quot;\u00a1Ah, vale!&quot;,&quot;Why?&quot;:&quot;\u00bfQu\u00e9 ofrecemos?&quot;,&quot;It&#039;s so you never have to scroll to the top of the dashboard to access this stuff.&quot;:&quot;Lo hemos juntado todo aqu\u00ed para que no tengas que desplazarte hacia la parte superior del Escritorio cada vez que quieras acceder a estas opciones.&quot;,&quot;Ohhh&quot;:&quot;Aaaah&quot;,&quot;Loading\u2026&quot;:&quot;Cargando...&quot;,&quot;%1$s notes&quot;:&quot;%1$s notas&quot;,&quot;%1$s note&quot;:&quot;%1$s nota&quot;,&quot;%1$s views&quot;:&quot;%1$s visitas&quot;,&quot;%1$s view&quot;:&quot;%1$s visita&quot;,&quot;%1$s added this GIF to a post&quot;:&quot;%1$s ha utilizado este GIF en una publicaci\u00f3n&quot;,&quot;%1$s posted this&quot;:&quot;%1$s ha publicado esto&quot;,&quot;%1$s%2$s likes%3$s&quot;:&quot;%1$s%2$s Me gusta%3$s&quot;,&quot;%1$s%2$s like%3$s&quot;:&quot;%1$s%2$s Me gusta%3$s&quot;,&quot;%1$s%2$s reblogs%3$s&quot;:&quot;%1$s%2$s reblogueos%3$s&quot;,&quot;%1$s%2$s reblog%3$s&quot;:&quot;%1$s%2$s reblogueo%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s Me gusta%3$s y %4$s%5$s reblogueos%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblog%3$s&quot;:&quot;%1$s%2$s Me gusta%3$s y %4$s%5$s reblogueo%3$s&quot;,&quot;%1$s%2$s like%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s Me gusta%3$s y %4$s%5$s reblogueos%3$s&quot;,&quot;Reply&quot;:&quot;Responder&quot;,&quot;Add to the discussion&quot;:&quot;Comparte tu opini\u00f3n&quot;,&quot;Unleash a compliment&quot;:&quot;Haz un cumplido&quot;,&quot;Have something to say?&quot;:&quot;\u00bfAlgo que decir?&quot;,&quot;Reply your heart out&quot;:&quot;Abre tu coraz\u00f3n&quot;,&quot;Add something wonderful&quot;:&quot;Comparte algo espectacular&quot;,&quot;Send something nice&quot;:&quot;Di algo bonito&quot;,&quot;Your words here&quot;:&quot;Aqu\u00ed es donde van las palabras&quot;,&quot;Say your thing&quot;:&quot;\u00bfAlgo que decir?&quot;,&quot;Block %1$s&quot;:&quot;Bloquear a %1$s&quot;,&quot;Report&quot;:&quot;Denunciar&quot;,&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$s\u00bfSeguro que quieres denunciar el blog de %2$s?%3$sSi infringe las normas de la comunidad, lo eliminaremos.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$s\u00bfSeguro que quieres denunciar el blog de %2$s?%3$sSi infringe las normas de la comunidad, lo eliminaremos.%4$s&quot;,&quot;Hide note&quot;:&quot;Ocultar nota&quot;,&quot;Delete reply&quot;:&quot;Borrar respuesta&quot;,&quot;%1$sYou definitely want to hide this note?%2$s&quot;:&quot;%1$s\u00bfSeguro que quieres ocultar esta nota?%2$s&quot;,&quot;%1$sYou definitely want to delete this reply?%2$s&quot;:&quot;%1$s\u00bfSeguro que quieres borrar esta respuesta?%2$s&quot;,&quot;%1$sDelete your tip??%2$s&quot;:&quot;%1$s\u00bfQuieres eliminar la propina?%2$s&quot;,&quot;Deleting your tip&quot;:&quot;Al hacerlo, solo la borrar\u00e1s de la pesta\u00f1a de las respuestas y de las notas. %1$sNo recibir\u00e1s ning\u00fan reembolso por tu propina%2$s. Si necesitas ayuda o tienes alguna otra pregunta, %3$sescribe al equipo de asistencia de Tumblr%4$s.&quot;,&quot;Hide it&quot;:&quot;S\u00ed, ocultadla&quot;,&quot;Delete it&quot;:&quot;S\u00ed, borradla&quot;,&quot;Search&quot;:&quot;Buscar&quot;,&quot;Search %s&quot;:&quot;Buscar en %s&quot;,&quot;Fan mail&quot;:&quot;Carta de fan&quot;,&quot;Message&quot;:&quot;Mensaje&quot;,&quot;Like&quot;:&quot;Me gusta&quot;,&quot;Unlike&quot;:&quot;Ya no me gusta&quot;,&quot;Reblog&quot;:&quot;Rebloguear&quot;,&quot;Embed&quot;:&quot;Insertar&quot;,&quot;Edit&quot;:&quot;Editar&quot;,&quot;Delete&quot;:&quot;Borrar&quot;,&quot;Get notifications&quot;:&quot;Recibir notificaciones&quot;,&quot;Stop notifications&quot;:&quot;Dejar de recibir notificaciones&quot;,&quot;Flag this blog&quot;:&quot;Marcar blog&quot;,&quot;Sign up&quot;:&quot;Reg\u00edstrate&quot;,&quot;Sign up for Tumblr&quot;:&quot;Reg\u00edstrate en Tumblr&quot;,&quot;Log in&quot;:&quot;Inicia sesi\u00f3n&quot;,&quot;You&#039;ll never be bored again.&quot;:&quot;Jam\u00e1s volver\u00e1s a aburrirte.&quot;,&quot;Discover more blogs like this one.&quot;:&quot;Descubre otros blogs parecidos.&quot;,&quot;Install the app&quot;:&quot;Instalar la aplicaci\u00f3n&quot;,&quot;Open in app&quot;:&quot;Abrir en la aplicaci\u00f3n&quot;,&quot;Dashboard&quot;:&quot;Escritorio&quot;,&quot;Open in Dashboard&quot;:&quot;Abrir en el Escritorio&quot;,&quot;Get the Tumblr app&quot;:&quot;Descarga la aplicaci\u00f3n de Tumblr&quot;,&quot;Are you sure you want to delete this post?&quot;:&quot;\u00bfSeguro que quieres borrar esta publicaci\u00f3n?&quot;,&quot;Never miss a post&quot;:&quot;\u00a1No te pierdas ni una publicaci\u00f3n!&quot;,&quot;Accept&quot;:&quot;Aceptar&quot;,&quot;Privacy \u0026 Cookies&quot;:&quot;Privacidad y cookies&quot;,&quot;By using this site, you&#039;re agreeing to the use of analytics and other types of cookies. Click accept here, and cookies will also show you personalized ads from across the Automattic\/Wordpress.com network.&quot;:&quot;Al utilizar esta p\u00e1gina, muestras tu consentimiento para que almacenemos datos estad\u00edsticos y otro tipo de cookies. Haz clic aqu\u00ed para aceptar y las cookies tambi\u00e9n te mostrar\u00e1n anuncios personalizados de toda la red de Automattic y Wordpress.com.&quot;,&quot;Get the app&quot;:&quot;Descarga la aplicaci\u00f3n&quot;,&quot;Open in the app store?&quot;:&quot;\u00bfQuieres abrir la tienda de aplicaciones?&quot;,&quot;%1$s, a blog on Tumblr.&quot;:&quot;%1$s, un flamante blog de Tumblr.&quot;,&quot;No thanks&quot;:&quot;No, gracias&quot;,&quot;Never miss a post from %1$s&quot;:&quot;No te pierdas ni una publicaci\u00f3n de %1$s&quot;,&quot;Make gifs, find your community. Only in the app.&quot;:&quot;Crea gifs y encuentra a gente que comparte tus intereses en la aplicaci\u00f3n.&quot;,&quot;Close&quot;:&quot;Cerrar&quot;,&quot;Image Description&quot;:&quot;Descripci\u00f3n de la imagen&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=0e147942bfe4bb394faff9af7aa7a974"></script></body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
